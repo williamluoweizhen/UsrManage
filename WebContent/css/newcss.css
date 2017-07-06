@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* play */
+.play{width:1023px;height:350px;overflow:hidden;position:relative;margin:0 auto ;}
+.play ol{position:absolute;left:50%;margin-left:-20px;bottom:10px;z-index:99999;}
+.play ol li{display:block;float:left;margin-right:3px;display:inline;cursor:pointer;background-color:rgba(0,0,0,0.5);padding:5px 9px;color:#fff;font-family:arial;font-size:12px;border-radius:100px;}
+.play ol li.active{font-weight:bold;color:#ffffff;background-color:rgba(0,0,0,1);position:relative;}
+.play ul{position:absolute;top:0;left:0;display:block;;z-index:1;}
+.play ul li{display:block;;width:1023;height:350px;float:left;}
+.play ul img{float:left;width:1023px;height:350px;}
+#next{display:block;position:absolute;top:38%;right:0;width:30px;height:54px;text-align:center;color:#fff;background-color:rgba(0,0,0,0.5);z-index:999;line-height:50px;text-decoration:none;}
+#prev{display:block;position:absolute;top:38%;left:0;width:30px;height:54px;text-align:center;color:#fff;background-color:rgba(0,0,0,0.5);z-index:999;line-height:50px;text-decoration:none;}
+#prev:hover .prevImg,#next:hover .nextImg{display:block;}
+.prevImg{height:54px;width:80px;position:absolute;background-color:#fff;top:0;left:30px;display:none;}
+.nextImg{height:54px;width:80px;position:absolute;background-color:#fff;top:0;right:30px;display:none;}
+body,ul,ol,li,dl,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset,hr{margin:0;padding:0;overflow-x:hidden}
+	hr{border: 1px dashed #0e5e9b}
+	a{text-decoration: none;}
+	
+	body{
+		background-color: #fbfafa;
+		position: relative;
+	}
+	#enter a: link{
+		color: white;
+	}
+	#enter a:visited{
+		color: white;
+	}
+	#enter a{
+		text-decoration: none;
+		color: white;
+	}
+	#tree_item{
+		margin-left:639px;
+	}
+	#top{
+		position: relative;
+		height: 221.5px;	
+		z-index: -80;
+		background-image: url(../images/headeraa.png);
+		background-size: 100% 100%;
+		
+	}
+	#toppic{
+		position: relative;
+		width: 1023px;
+		height: 178px;
+		
+		margin:0 auto;
+
+	}
+	#schlogo{
+		position: absolute;
+		left: 50px;
+		top: 52px;
+	}
+	#schname{
+		position: absolute;
+		left: 230px;
+		top:73px;
+	}
+	#schtitle{
+		position: absolute;
+		left: 430px;
+		top:77px;
+	}
+	#plane{
+		position: absolute;
+		left: 680px;
+		top:42px;
+	}
+	#enter{
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-right: 20%;
+	}
+	#enter li{
+		float: right;
+		color: white;
+		list-style: none;
+		margin-left: 20px;
+		font-size: 12px;
+		margin-top: 12px;
+		font-family: "SimHei";
+
+	}
+	#menu li{
+		list-style: none;
+		float: left;
+		font-family: "SimHei";
+		height: 21px;
+		padding: 11px;
+		margin-left: 4%;
+		
+	}
+	#menu{
+		width:922px;
+		z-index: 999;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -43px;
+	}
+	#menu a{
+		font-weight: bold;
+		font-size: 16px;
+		text-decoration: none;
+		color: #023d60;
+	}
+	
+	#menu a: link{
+		color:#023d60;
+	}
+	.menucolor{
+		background-color: #6699cc;
+	}
+	
+	#foot{
+		display:flex;
+		height: 170px;
+		width: 100%;
+		background-image: url(../images/footer.png);
+		display:flex;
+	}
+	#relate{
+		
+	}
+	#footin{
+		position: relative;
+		width: 1023px;
+		height: 150px;
+		margin: 0 auto;
+		margin-top: -150px;
+	}
+	#footin span{
+		position: absolute;
+		top:5px;
+		left: 35px;
+		color: white;
+		font-size: 22px;
+		font-family: "SimHei";
+	}
+	#footult{
+		position: absolute;
+		left: 800px;
+		top: 15px;
+		font-size: 12px;
+		color: white;
+		font-family: "SimHei";
+	}
+	#footulo{
+		position: absolute;
+		left: 140px;
+		top: 10px;
+	}
+	#footulo a{
+		
+		font-size: 12px;
+		color: white;
+		font-family: "SimHei";
+	}
+	#middle{
+		/* height: 930px; */
+		width: 875px;
+		margin:  0 auto;
+	}
+	#midtitle{
+		font-size: 16px;
+		font-weight: bold;
+		color: #0e5e9b;
+		font-family: "SimHei";
+	}
+	#midtitle a{
+		color: #0e5e9b;
+		font-family: "SimHei";
+	}
+	#guid ul li{
+		float: left;
+		margin-left: 20px;
+	}
+	#guid{
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+	.subtitle
+	{
+		color: #8c8c8c;
+		font-family: "SimHei";
+		font-weight: bold;
+	}
+	#leftguid{
+		margin-left:30px;
+		margin-top: 5px;
+		width: 120px;
+		float: left;
+		
+	}
+	#leftguid ul li{
+	
+	/* 	font-size: 14px;
+		font-family: "SimHei";
+		margin-top: 20px;
+		font-weight: bold;
+		padding-top: 14px;
+		padding-left: 21px;
+		padding-right: 16px;
+		padding-bottom: 3px;
+		width: 50%;
+		height: 28px;
+		cursor: pointer; */
+		font-size: 14px;
+		font-family: "SimHei";
+		margin-top: 20px;
+		font-weight: bold;
+		padding-top: 8px;
+		padding-left: 28px;
+		padding-right: 0px;
+		padding-bottom: 9px;
+		width: 71%;
+		height: 16px;
+		cursor: pointer;
+	}
+	#rightnew{
+		padding: 20px;
+		margin-top: 20px;
+		
+		box-shadow:0px 1px 1px 1px #d9d9d9;
+		width: 669px;
+		float: right;
+		/* height: 833px; */
+		position: relative;
+	}
+	#title{
+		text-align: center;
+		width: 100%;
+		height: 45px;
+		word-break:break-all;
+		font-size: 20px;
+		font-family: "SimHei";
+		font-weight: bold;
+	}
+	#times{
+		text-align: center;
+		width: 100%;
+		font-size: 12px;
+		font-weight: bold;
+		color: #8c8c8c;
+		line-height:24px;
+	}
+	#contents{
+		word-break:break-all;
+		font-size: 14px;
+		font-weight: bold;
+		line-height:26px;
+	}
+	#page{
+		position: absolute;
+		left: 635px;
+		top: 1100px;
+		width:300px;
+		height: 60px;
+		
+	}
+	#page ul li{
+		float: left;
+		margin-top: 25px;
+		margin-left: 25px;
+		font-size: 12px;
+	}
+	.pageforwar{
+		background-color: #8c8c8c;
+		width: 50px;
+		text-align: center;
+	}
+	.pageforwar a{
+		font-size: 10px;
+		color: white;
+	}
+	.leftcheck{
+		color:white;
+		background-color:  #0e5e9b;
+	}
+	.unleftcheck{
+		opacity:0.8;
+		background-color: #E5E5E5;
+	}
+	

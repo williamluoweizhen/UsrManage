@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://getahead.org/dwr/dwr20.dtd">
+<dwr>
+	<allow>
+		<create creator="new" javascript="UserDao" scope="page">
+			<param name="class" value="cn.edu.xmu.daoimpl.UserDaoImpl" />
+		</create>
+		<convert converter="bean" match="cn.edu.xmu.entity.User" />
+		</allow>
+</dwr>
